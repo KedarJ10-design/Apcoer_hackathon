@@ -89,5 +89,5 @@ handwritten-notes-assistant/
 4. **Chat & Retrieve**: Whenever a question is asked, ChromaDB performs a similarity search against the vectors and pulls the top 5 most relevant chunks.
 5. **Generation**: The prompt, alongside the retrieved context from the handwritten notes, is sent to the local `Ollama` model which streams back a contextually accurate response.
 
-## ⚖️ License
-[MIT License](LICENSE)
+
+
