@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+What Your System Should Do	
+Build a complete system that can:
+• Read handwritten PDFs and pull out the text from them
+• Store the extracted text in a way that makes it easy to search
+• Let users ask questions in plain English
+• Find the most relevant part of the notes to answer each question
+• Show exactly where each answer came from (page, sec- tion)
+• Say “I don’t have enough information” when the notes don’t cover a topic
+• Work without internet after the PDF is uploaded
+Must-Have Features	
+Your system needs to include:
+• A way to read text from handwritten PDFs (using OCR)
+• A local database to store and search through the text
+• A question-answer chat with source references
+• Smart handling when someone asks something not in the notes
+• A user-friendly interface (command line or graphical)
+Rules	
+
+What the PDFs Look Like	
+The handwritten notes you receive may have:
+• Different handwriting styles (neat and messy)
+• Diagrams and drawings with labels
+• Tables and organized data
+• Pages that are tilted or hard to read
+• Topics spread across multiple pages
+Your system should handle all of these well.
+How We Will Score	
+
+What We JudgeWeightCorrect Answers40%RAG Workflow20%Bonus Features20%UI Design & Ease of Use10%Presentation10%What to Submit	
+Each team must provide:
+• A working demo of the system
+• A public GitHub link to the code
+• Clear instructions on how to set up and run the project
+• A short explanation of how the system works (1–2 pages)
+Team Info	
+• Team Size: 2–4 members
+• Hardware: Any laptop or PC
+• Duration: 6 hours
+• AI Tools: Use of any AI tool is allowed
+
+
+
+
+
+
+
+Build Smart. Retrieve Precisely. Answer Honestly.
+
+
+
+
+
+What a Great Project Looks Like	
+The best projects will have a system that:
+• Reads handwriting correctly, even when it is messy
+• Finds the right part of the notes — not just matching words
+• Gives short, accurate answers based only on the notes
+• Tells you exactly which page or section the answer came from
+• Never makes up information that is not in the notes
+• Handles follow-up questions naturally
+• Works well even when notes are long and cover many topics
+How Your System Should Work (Step by Step)	
+Your project should follow these steps:
+1. Read the PDF — open the PDF, use OCR to read the handwriting, and clean up the text
+2. Break It Into Pieces — split the text into small, meaningful sections
+3. Convert to Numbers — turn each section into a number format (embedding) that a computer can search through
+4. Store It — save these numbers in a local database so you can search them quickly
+5. Search — when a user asks a question, find the most relevant sections from the notes
+6. Generate an Answer — use a local AI model to write an answer based only on the sections found
+7. Show It — display the answer with a reference to where it came from
+
+How the System Should Behave	
+Your system should:
+• Keep the “search” and “answer” steps clearly separate
+• Only answer based on what is in the notes — never make things up
+• Give the same results every time for the same question
+• Always show where each answer came from
+• Honestly say “I don’t know” when the notes don’t have the answer
+What Happens During the Demo	
+Judges will test your system with:
+• Questions that require understanding from both PDFs
+• Follow-up questions to test conversation memory
+• Trick questions to see if it makes up answers
+• Questions that need information from multiple pages If your system invents answers, it will lose points.
+
+
+
+
+
+Official Document — Gen AI Hackathon 2026
+
+
